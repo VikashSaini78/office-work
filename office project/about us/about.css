@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-container1{
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(rgb(44, 109, 114),rgb(155, 110, 143));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-colom2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-text1{
+    width: auto;
+    height: auto;
+    
+   
+}
+.about-text1 h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+.about-text1 p{
+  margin-left: 25px;
+    color: aliceblue;
+}
+
+
+
+
+
+/* container2 */
+
+
+.bout-container2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+}
+
+.about-colom1{
+    /* background-color: rgb(194, 194, 52); */
+    height: 560px;
+    /* display: flex;
+    align-items: end; */
+
+}
+
+.about-colom1 img{
+    width: 500px;
+    /* background-color: beige; */
+    height: 540px;
+
+}
+
+.about-colom3{
+    height: 560px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.about-sm-colom2{
+    width: 80%;
+    height: 460px;
+    /* background-color: aliceblue; */
+}
+.about-sm-colom2 h3{
+    font-size: 30px;
+    color: rgb(231, 38, 38);
+}
+
+.about-sm-colom2 #about-pr1{
+    position: relative;
+    top: 34px;
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+}
+.about-sm-colom2 p{
+    position: relative;
+    top: 35px;
+    font-size: 13px;
+    color: rgb(99, 97, 97);
+}
+
+.about-sm-colom2 #about-pr2{
+    position: relative;
+    top: 46px;
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+}
+
+.about-sm-colom2 #about-pr3{
+    position: relative;
+    top: 45px;
+    font-size: 13px;
+    color: rgb(99, 97, 97);
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+
+    
+.bout-container2{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(21, 26, 13); */
+}
+    .about-colom1 img{
+        width: 300px;
+        /* background-color: beige; */
+        height: 400px;
+    
+    }
+    
+.about-colom1{
+    /* background-color: rgb(194, 194, 52); */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-colom3{
+    height: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-sm-colom2{
+    width: 80%;
+    height: 100vh;
+    /* background-color: rgb(40, 56, 70); */
+}
+
+}
+
+
+
+/* container3 */
+
+
+.about-container3{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(225, 233, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-colom4{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.about-text2{
+    width: auto;
+    height: auto;
+    
+   
+}
+.about-text3 h1{
+    margin-left: 40px;
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+}
+.about-text3 p{
+    color: rgb(68, 93, 114);
+  margin-right: 20px;
+}
+
+
+
+
+
+/* container4 */
+
+
+.about-container4{
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 233, 231);
+}
+
+
+.about-colom5{
+    height: 200px;
+    /* background-color: aqua; */
+}
+.about-colom5 span i{
+    font-size: 30px;
+    color: rgb(38, 160, 54);
+    margin-bottom: 24px
+}
+.about-colom5 h5{
+    color: rgb(51, 94, 88);
+    margin-bottom: 17px
+}
+.about-colom5 p{
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+
+.about-colom6{
+    height: 200px;
+    /* background-color: aqua; */
+}
+.about-colom6 span i{
+    font-size: 30px;
+    color: rgb(38, 160, 54);
+    margin-bottom: 24px
+}
+.about-colom6 h5{
+    color: rgb(51, 94, 88);
+    margin-bottom: 17px
+}
+.about-colom6 p{
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+
+
+
+.about-colom7{
+    height: 200px;
+    /* background-color: aqua; */
+}
+.about-colom7 span i{
+    font-size: 30px;
+    color: rgb(38, 160, 54);
+    margin-bottom: 24px
+}
+.about-colom7 h5{
+    color: rgb(51, 94, 88);
+    margin-bottom: 17px
+}
+.about-colom7 p{
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+
+
+/* container5 */
+
+
+.about-container5{
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 233, 231);
+}
